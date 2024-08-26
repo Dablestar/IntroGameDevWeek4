@@ -5,8 +5,8 @@ using UnityEngine;
 public class LoadAssets : MonoBehaviour
 {
     public GameObject redObj;
-    [SerializeField] private GameObject blueObj;
-    
+
+    [SerializeField] GameObject blueObj;
     // Start is called before the first frame update
     void Start()
     {
